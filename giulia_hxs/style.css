@@ -89,6 +89,7 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
 main {
     width: 940px;
     margin: 0 auto;
@@ -98,10 +99,16 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form legend {
     display:block;
     font-size: 20px;
     margin: 0 0 10px;
+}
+form input { 
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 .input-padrao {
     display: block;
@@ -109,6 +116,24 @@ form label {
     padding: 10px 25px;
     width: 50%header 
 }
+
 .checkbox {
     margin: 20px 0;
 }	
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background:#1981c7 ;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 5s background;
+	cursor: pointer;
+}
+.enviar:hover {
+	background: darkturquoise;
+	transform: scale(1.2);
+	transform: rotate(360deg);
+}
